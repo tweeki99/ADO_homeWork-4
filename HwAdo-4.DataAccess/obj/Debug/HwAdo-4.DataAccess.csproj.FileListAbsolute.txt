@@ -1,0 +1,8 @@
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4.DataAccess\bin\Debug\Sales.mdf
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4.DataAccess\bin\Debug\Sales_log.ldf
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4.DataAccess\bin\Debug\HwAdo-4.DataAccess.dll
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4.DataAccess\bin\Debug\HwAdo-4.DataAccess.pdb
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4.DataAccess\obj\Debug\HwAdo-4.DataAccess.csprojAssemblyReference.cache
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4.DataAccess\obj\Debug\HwAdo-4.DataAccess.csproj.CoreCompileInputs.cache
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4.DataAccess\obj\Debug\HwAdo-4.DataAccess.dll
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4.DataAccess\obj\Debug\HwAdo-4.DataAccess.pdb

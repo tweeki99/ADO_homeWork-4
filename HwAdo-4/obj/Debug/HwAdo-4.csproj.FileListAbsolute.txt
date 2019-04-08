@@ -1,0 +1,25 @@
+C:\Users\Shipa\source\repos\HwAdo-4\HwAdo-4\bin\Debug\HwAdo-4.exe.config
+C:\Users\Shipa\source\repos\HwAdo-4\HwAdo-4\bin\Debug\HwAdo-4.exe
+C:\Users\Shipa\source\repos\HwAdo-4\HwAdo-4\bin\Debug\HwAdo-4.pdb
+C:\Users\Shipa\source\repos\HwAdo-4\HwAdo-4\obj\Debug\HwAdo-4.csprojAssemblyReference.cache
+C:\Users\Shipa\source\repos\HwAdo-4\HwAdo-4\obj\Debug\HwAdo_4.Form1.resources
+C:\Users\Shipa\source\repos\HwAdo-4\HwAdo-4\obj\Debug\HwAdo_4.Properties.Resources.resources
+C:\Users\Shipa\source\repos\HwAdo-4\HwAdo-4\obj\Debug\HwAdo-4.csproj.GenerateResource.cache
+C:\Users\Shipa\source\repos\HwAdo-4\HwAdo-4\obj\Debug\HwAdo-4.csproj.CoreCompileInputs.cache
+C:\Users\Shipa\source\repos\HwAdo-4\HwAdo-4\obj\Debug\HwAdo-4.exe
+C:\Users\Shipa\source\repos\HwAdo-4\HwAdo-4\obj\Debug\HwAdo-4.pdb
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4\bin\Debug\HwAdo-4.exe.config
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4\bin\Debug\HwAdo-4.exe
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4\bin\Debug\HwAdo-4.pdb
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4\obj\Debug\HwAdo-4.csprojAssemblyReference.cache
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4\obj\Debug\HwAdo_4.Form1.resources
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4\obj\Debug\HwAdo_4.Properties.Resources.resources
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4\obj\Debug\HwAdo-4.csproj.GenerateResource.cache
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4\obj\Debug\HwAdo-4.csproj.CoreCompileInputs.cache
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4\obj\Debug\HwAdo-4.exe
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4\obj\Debug\HwAdo-4.pdb
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4\bin\Debug\Sales.mdf
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4\bin\Debug\Sales_log.ldf
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4\bin\Debug\HwAdo-4.DataAccess.dll
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4\bin\Debug\HwAdo-4.DataAccess.pdb
+E:\Всякое\HwAdo-4  WinForms+DB\HwAdo-4\obj\Debug\HwAdo-4.csproj.CopyComplete
