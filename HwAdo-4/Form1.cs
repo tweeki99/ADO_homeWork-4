@@ -22,44 +22,44 @@ namespace HwAdo_4
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            button1.Visible = false;
+            buttonRefresh.Visible = false;
 
             string sql = @"SELECT [name] FROM sys.Tables";
-            SqlConnection Conn = new SqlConnection(ConfigurationManager.ConnectionStrings["HwAdo_4.Properties.Settings.SalesConnectionString"].ConnectionString);
-            Conn.Open();
-            SqlDataAdapter DA = new SqlDataAdapter();
-            SqlCommand comm = new SqlCommand(sql, Conn);
-            SqlDataReader dr = comm.ExecuteReader();
-            while (dr.Read())
+            SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["HwAdo_4.Properties.Settings.SalesConnectionString"].ConnectionString);
+            connection.Open();
+            SqlCommand command = new SqlCommand(sql, connection);
+            SqlDataReader dataReader = command.ExecuteReader();
+            while (dataReader.Read())
             {
-                comboBox1.Items.Add(dr.GetString(0));
+                comboBoxTables.Items.Add(dataReader.GetString(0));
             }
-            Conn.Close();
+            dataReader.Close();
+            connection.Close();
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void comboBoxTables_SelectedIndexChanged(object sender, EventArgs e)
         {
-            button1.Visible = true;
+            buttonRefresh.Visible = true;
             LoadTable();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonRefresh_Click(object sender, EventArgs e)
         {
             LoadTable();
         }
 
         private void LoadTable()
         {
-            dataGridView1.Rows.Clear();
-            dataGridView1.Columns.Clear();
+            dataGridViewRows.Rows.Clear();
+            dataGridViewRows.Columns.Clear();
 
-            var sd = comboBox1.AccessibilityObject.Value;
+            var tableName = comboBoxTables.AccessibilityObject.Value;
 
             SqlConnection myConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["HwAdo_4.Properties.Settings.SalesConnectionString"].ConnectionString);
 
             myConnection.Open();
 
-            string query = $"SELECT * FROM [{sd}]";
+            string query = $"SELECT * FROM [{tableName}]";
 
             SqlCommand command = new SqlCommand(query, myConnection);
 
@@ -67,7 +67,7 @@ namespace HwAdo_4
 
             for (var j = 0; j < reader.FieldCount; j++)
             {
-                dataGridView1.Columns.Add(reader.GetName(j), reader.GetName(j));
+                dataGridViewRows.Columns.Add(reader.GetName(j), reader.GetName(j));
             }
 
             while (reader.Read())
@@ -77,7 +77,7 @@ namespace HwAdo_4
                 {
                     data.Add(reader[i].ToString());
                 }
-                dataGridView1.Rows.Add(data.ToArray());
+                dataGridViewRows.Rows.Add(data.ToArray());
             }
             reader.Close();
 
